@@ -12,17 +12,19 @@
             <a href="#about-me">About Me</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
+            <a href="#social">Social</a>
         </nav>
     </section>
     <h1>Javier - Riwi Developer</h1>
-    <section>
+    <section id="about-me">
         <h2>About Me</h2>
         <img src="./img/Me.jpeg" alt=""><!--img of me-->
         <p>Hello, I am Javier Andres Narvaez Galiano.</p>
         <p>I love creating attractive and functional websites and am constantly learning to improve my skills.</p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, quaerat! Laborum, veritatis sed! Autem harum aliquid quas rem minima sequi. Molestiae quo hic maiores voluptas, exercitationem totam in natus iusto?</p><!-- Not LOREM-->
-    </section>
+    </section>    
     <!--Habilities project-->
+    <br><hr>
     <section>
         <br><hr>
         <h1>Skills</h1>
@@ -34,56 +36,60 @@
         </ul>
     </section>
     <!--Projects section-->
-    <section>
-        <br><hr>
+    <br><hr>
+    <section id="projects">
         <h1>Projects</h1>
         <table border="2" style="margin: auto;">
             <tr>
                 <th><h2>Inventory management</h2></th>
-                <th><h2>Projects name</h2></th>
+                <th><h2>Portfolio HTML</h2></th>
+                <th><h2>Hospital IMC calculation</h2></th>
             </tr>
             <tr>
-                <td><img src="./img/Captura desde 2025-05-22 07-02-34.png" alt=""></td>
-                <td><img src="./img/Captura desde 2025-05-22 08-22-37.png" alt=""></td>
+                <td><img src="./img/Captura desde 2025-05-22 07-02-34.png" alt="Inventory proyect"></td>
+                <td><img src="./img/Portofolio.png" alt="Personal portfolio html"></td>
+                <td><img src="./img/CLinicaJava.png" alt="Hospital proyect output"></td>
             </tr>
             <tr>
                 <td><h3>Project 1: Inventory management</h3></td>
                 <td><h3>Project 2: Portofolio Website</h3></td>
+                <td><h3>Project 3: IMC calculation</h3></td>
             </tr>
             <tr>
                 <td><p>This is my first CRUD using only terminal with Functions.</p></td>
                 <td><p>this is my first personal portfolio using only HTML.</p></td>
+                <td><p>this is my first project using JAVA.</p></td>
             </tr>
         </table>
-        <!-- <div>
-            <h2>Inventory management</h2>
-            <img src="./img/Captura desde 2025-05-22 07-02-34.png" alt="">
-            <h3>Project 1: Inventory management</h3>
-            <p>This is my first CRUD using only terminal with Functions.</p>
-        </div> -->
-
-        <div>
-            <h2></h2>
-            <img src="./img/Captura desde 2025-05-22 07-02-34.png" alt="">
-            <h3>Project 2: Hospital management</h3>
-            <p>This is my first CRUD using only terminal with Functions.</p>
-        </div>
     </section>
     <!--Table projects-->
-    <table>
-        <tr>
-            <th>Project Name</th>
-            <th>Technologies used</th>
-            <th>Link</th>
-        </tr>
-        <tr>
-            <td>Portogolio website</td>
-            <td>HTML</td>
-            <td><a href="#">View Project</a></td>
-        </tr>
-    </table>
-
+    <br><hr>
     <section>
+        <table style="margin: auto;">
+            <tr>
+                <th>Project Name</th>
+                <th>Technologies used</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td>Portofolio website</td>
+                <td>HTML</td>
+                <td><a href="https://github.com/JavierDevPro/portafolioRiwiM2S1.git" target="_blank">githublink</a></td>
+            </tr>
+            <tr>
+                <td>Inventory management</td>
+                <td>PYTHON</td>
+                <td><a href="https://github.com/JavierDevPro/M1S3GestionInventarioPython.git" target="_blank">githublink</a></td>
+            </tr>
+            <tr>
+                <td>IMC calculation</td>
+                <td>JAVA</td>
+                <td><a href="https://github.com/JavierDevPro/EjercicioClinicaBasicJava.git" target="_blank">githublink</a></td>
+            </tr>
+        </table>
+    </section>
+    <br><hr>    
+    <section id="contact">
         <form action="/send" method="post">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
@@ -98,8 +104,8 @@
         </form>
     </section>
     <!--Social Media-->
-    <section>
-        <a href="githublink" target="_blank">GitHub</a>
+    <section id="social">
+        <a href="https://github.com/JavierDevPro" target="_blank">GitHub</a>
     </section>
 </body>
 </html>
